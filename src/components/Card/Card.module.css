@@ -1,0 +1,48 @@
+.card {
+  background: #171D1F;
+  width: 486px;
+  border-radius: 8px;
+}
+
+.header {
+  border-radius: 8px 8px 0 0;
+  background: #888;
+  padding: 24px;
+}
+
+.header figure {
+  margin: 0;
+}
+
+.header figure img {
+  border-radius: 8px;
+}
+
+.body {
+  color: #BCBCBC;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.body p {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  margin: 0;
+  text-align: justify;
+  flex-grow: 1;
+  line-height: 150%;
+}
+
+.body h2 {
+  font-style: normal;
+  font-weight: 600;
+  margin: 0;
+}
+
+.link {
+  text-decoration: none;
+  cursor: pointer;
+}

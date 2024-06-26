@@ -1,0 +1,52 @@
+{"level":"error","message":"HTTP error! Status: 404","service":"user-service"}
+{"level":"error","message":"No slug provided","service":"user-service"}
+{"level":"error","message":"No slug provided","service":"user-service"}
+{"level":"error","message":"No slug provided","service":"user-service"}
+{"level":"error","message":"No slug provided","service":"user-service"}
+{"level":"error","message":"No slug provided","service":"user-service"}
+{"level":"error","message":"No slug provided","service":"user-service"}
+{"level":"error","message":"No slug provided","service":"user-service"}
+{"level":"error","message":"No slug provided","service":"user-service"}
+{"level":"error","message":"No slug provided","service":"user-service"}
+{"level":"error","message":"No slug provided","service":"user-service"}
+{"level":"error","message":"No slug provided","service":"user-service"}
+{"level":"error","message":"No slug provided","service":"user-service"}
+{"level":"error","message":"No slug provided","service":"user-service"}
+{"level":"error","message":"No slug provided","service":"user-service"}
+{"level":"error","message":"No slug provided","service":"user-service"}
+{"level":"error","message":"No slug provided","service":"user-service"}
+{"level":"error","message":"No slug provided","service":"user-service"}
+{"level":"error","message":"No slug provided","service":"user-service"}
+{"level":"error","message":"No slug provided","service":"user-service"}
+{"level":"error","message":"No slug provided","service":"user-service"}
+{"level":"error","message":"No slug provided","service":"user-service"}
+{"level":"error","message":"No slug provided","service":"user-service"}
+{"level":"error","message":"No slug provided","service":"user-service"}
+{"level":"error","message":"No slug provided","service":"user-service"}
+{"level":"error","message":"No slug provided","service":"user-service"}
+{"level":"error","message":"No slug provided","service":"user-service"}
+{"level":"error","message":"No slug provided","service":"user-service"}
+{"level":"error","message":"No slug provided","service":"user-service"}
+{"level":"error","message":"No slug provided","service":"user-service"}
+{"level":"error","message":"No slug provided","service":"user-service"}
+{"level":"error","message":"No slug provided","service":"user-service"}
+{"level":"error","message":"No slug provided","service":"user-service"}
+{"level":"error","message":"No slug provided","service":"user-service"}
+{"level":"error","message":"No slug provided","service":"user-service"}
+{"level":"error","message":"No slug provided","service":"user-service"}
+{"level":"error","message":"No slug provided","service":"user-service"}
+{"level":"error","message":"No slug provided","service":"user-service"}
+{"level":"error","message":"HTTP error! Status: 404","service":"user-service"}
+{"level":"error","message":"Error fetching posts: postResponse.json is not a function","service":"user-service","stack":"TypeError: postResponse.json is not a function\n    at getPostBySlug (webpack-internal:///(rsc)/./src/app/posts/[slug]/page.tsx:20:38)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async PagePost (webpack-internal:///(rsc)/./src/app/posts/[slug]/page.tsx:32:18)"}
+{"level":"error","message":"Error fetching posts: postResponse.json is not a function","service":"user-service","stack":"TypeError: postResponse.json is not a function\n    at getPostBySlug (webpack-internal:///(rsc)/./src/app/posts/[slug]/page.tsx:20:38)\n    at async PagePost (webpack-internal:///(rsc)/./src/app/posts/[slug]/page.tsx:32:18)"}
+{"level":"error","message":"Error fetching posts: postResponse.json is not a function","service":"user-service","stack":"TypeError: postResponse.json is not a function\n    at getPostBySlug (webpack-internal:///(rsc)/./src/app/posts/[slug]/page.tsx:20:38)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async PagePost (webpack-internal:///(rsc)/./src/app/posts/[slug]/page.tsx:32:18)"}
+{"level":"error","message":"Error fetching posts: postResponse.json is not a function","service":"user-service","stack":"TypeError: postResponse.json is not a function\n    at getPostBySlug (webpack-internal:///(rsc)/./src/app/posts/[slug]/page.tsx:20:38)\n    at async PagePost (webpack-internal:///(rsc)/./src/app/posts/[slug]/page.tsx:32:18)"}
+{"level":"error","message":"Error fetching posts: postResponse.json is not a function","service":"user-service","stack":"TypeError: postResponse.json is not a function\n    at getPostBySlug (webpack-internal:///(rsc)/./src/app/posts/[slug]/page.tsx:20:38)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async PagePost (webpack-internal:///(rsc)/./src/app/posts/[slug]/page.tsx:32:18)"}
+{"level":"error","message":"No slug provided or searchParams is undefined","service":"user-service"}
+{"level":"error","message":"No slug provided or searchParams is undefined","service":"user-service"}
+{"level":"error","message":"No slug provided or searchParams is undefined","service":"user-service"}
+{"level":"error","message":"No slug provided or searchParams is undefined","service":"user-service"}
+{"level":"error","message":"No slug provided or searchParams is undefined","service":"user-service"}
+{"level":"error","message":"No slug provided or searchParams is undefined","service":"user-service"}
+{"level":"error","message":"No slug provided or searchParams is undefined","service":"user-service"}
+{"level":"error","message":"No slug provided or searchParams is undefined","service":"user-service"}
