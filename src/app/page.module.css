@@ -12,9 +12,7 @@
   grid-column: 1 / -1;
 }
 
-.search {
+.main-content {
   display: flex;
-  align-items: center;
-  margin-bottom: 12px;
-  gap: 10px;
+  flex-direction: column;
 }

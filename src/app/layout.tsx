@@ -2,6 +2,7 @@ import Sidebar from "@/components/Sidebar";
 import { Metadata } from "next";
 import { Prompt } from 'next/font/google'
 import './globals.css'
+import Search from "@/components/Search";
 
 export const metadata: Metadata = {
   title: "Code Connect",
@@ -24,7 +25,10 @@ export default function RootLayout({
       <body>
         <section className="app-container">
           <Sidebar />
-          {children}
+          <div className="main-content">
+            <Search />
+            {children}
+          </div>
         </section>
       </body>
     </html>

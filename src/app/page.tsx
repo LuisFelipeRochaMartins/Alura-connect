@@ -3,8 +3,6 @@ import { PostProps } from "@/shared/interfaces";
 import styles from './page.module.css'
 import logger from "@/logger";
 import Link from "next/link";
-import Input from "@/components/Input";
-import Button from "@/components/Button";
 
 async function getAllPost(page : number): Promise<PostProps[]> {
   try {
@@ -28,12 +26,6 @@ async function Home({ searchParams }: any) {
   const posts = await getAllPost(currentPage)
   return (
     <main>
-      <div className={styles.search}>
-        <Input placeholder="Digite o que você procura"/>
-        <Button 
-          label="Enviar"
-        />
-      </div>
       <section className={styles.grid}>
         {posts.map(post => 
           <Card key={post.body} { ...post }/> 

@@ -46,3 +46,15 @@
   text-decoration: none;
   cursor: pointer;
 }
+
+.main .card {
+  width: 994px;
+  border-radius: 8px;
+}
+
+.main .header img {
+  width: 948px;
+  height: 300px;
+  border-radius: 8px;
+}
+
