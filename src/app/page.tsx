@@ -5,7 +5,7 @@ import Link from "next/link";
 import { Post } from "@prisma/client";
 import db from "../../prisma/db";
 
-async function getAllPost(page : number): Promise<Post[]> {
+async function getAllPost(page : number, search?: string): Promise<Post[]> {
   try {
     const posts = await db.post.findMany({
       include: {
@@ -15,9 +15,14 @@ async function getAllPost(page : number): Promise<Post[]> {
       orderBy: {
         createdAt: 'desc'
       },
-      skip: (page -1) * 6
+      skip: (page -1) * 6,
+      where: {
+        title: {
+          contains: search,
+          mode: 'insensitive'
+        }
+      }
     })
-    console.log(posts)
 
     return posts
   } catch (error) {
@@ -28,7 +33,8 @@ async function getAllPost(page : number): Promise<Post[]> {
 
 async function Home({ searchParams }: any) {
   const currentPage = searchParams?.page ?? 1
-  const posts = await getAllPost(currentPage)
+  const search = searchParams?.query
+  const posts = await getAllPost(currentPage, search)
   return (
     <main>
       <section className={styles.grid}>
@@ -36,12 +42,12 @@ async function Home({ searchParams }: any) {
           <Card key={post.title} { ...post }/> 
         )}
         {currentPage > 1 && 
-          <Link className={styles.link} href={`/?page=${Number(currentPage) -1}`} passHref>
+          <Link className={styles.link} href={{ pathname: '/', query: {page: (Number(currentPage) -1), q: search } }} passHref>
             Página Anterior
           </Link>
         }
         {currentPage && 
-          <Link className={styles.link} href={`/?page=${Number(currentPage) +1}`} passHref>
+          <Link className={styles.link} href={{ pathname: '/', query: {page: (Number(currentPage) +1), q: search } }} passHref>
             Próxima Página
           </Link>
         }

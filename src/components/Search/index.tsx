@@ -5,10 +5,12 @@ import styles from './Search.module.css'
 const Search = () => {
   return (
     <div className={styles.search}>
-    <Input placeholder="Digite o que você procura"/>
-    <Button 
-      label="Buscar"
-    />
+      <form action="/">
+        <Input placeholder="Digite o que você procura"/>
+        <Button 
+          label="Buscar"
+        />
+    </form>
   </div>
   )
 }

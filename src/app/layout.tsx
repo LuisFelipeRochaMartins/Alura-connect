@@ -6,7 +6,7 @@ import Search from "@/components/Search";
 
 export const metadata: Metadata = {
   title: "Code Connect",
-  description: "Rede Social para Desenvolvedores",
+  description: "Rede Social para Desenvolvedores"
 };
 
 const prompt = Prompt({
