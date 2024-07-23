@@ -771,3 +771,162 @@
 {"level":"info","message":"Posts Obtidos com Sucesso!","service":"user-service"}
 {"level":"info","message":"Posts Obtidos com Sucesso!","service":"user-service"}
 {"level":"info","message":"Posts Obtidos com Sucesso!","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientUnknownRequestError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"level":"error","message":"Error fetching posts: fetch failed","service":"user-service","stack":"TypeError: fetch failed\n    at node:internal/deps/undici/undici:12502:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async getPostBySlug (webpack-internal:///(rsc)/./src/app/posts/[slug]/page.tsx:21:26)\n    at async PagePost (webpack-internal:///(rsc)/./src/app/posts/[slug]/page.tsx:45:18)"}
+{"level":"error","message":"Error fetching posts: fetch failed","service":"user-service","stack":"TypeError: fetch failed\n    at node:internal/deps/undici/undici:12502:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async getPostBySlug (webpack-internal:///(rsc)/./src/app/posts/[slug]/page.tsx:21:26)\n    at async PagePost (webpack-internal:///(rsc)/./src/app/posts/[slug]/page.tsx:45:18)"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"error":{"clientVersion":"5.17.0","name":"PrismaClientInitializationError"},"level":"error","message":"Error fetching posts:","service":"user-service"}
+{"level":"error","message":"Error fetching posts: Post não encontrado com o slug de construindo-spa-com-saddsadasdas","service":"user-service","stack":"Error: Post não encontrado com o slug de construindo-spa-com-saddsadasdas\n    at getPostBySlug (webpack-internal:///(rsc)/./src/app/posts/[slug]/page.tsx:34:19)\n    at async PagePost (webpack-internal:///(rsc)/./src/app/posts/[slug]/page.tsx:50:18)"}
+{"level":"error","message":"Error fetching posts: Post não encontrado com o slug de construindo-spa-com-saddsadasdas","service":"user-service","stack":"Error: Post não encontrado com o slug de construindo-spa-com-saddsadasdas\n    at getPostBySlug (webpack-internal:///(rsc)/./src/app/posts/[slug]/page.tsx:34:19)\n    at async PagePost (webpack-internal:///(rsc)/./src/app/posts/[slug]/page.tsx:50:18)"}
+{"level":"error","message":"Error fetching posts: Post não encontrado com o slug de construindo-spa-com-saddsadasdas","service":"user-service","stack":"Error: Post não encontrado com o slug de construindo-spa-com-saddsadasdas\n    at getPostBySlug (webpack-internal:///(rsc)/./src/app/posts/[slug]/page.tsx:34:19)\n    at async PagePost (webpack-internal:///(rsc)/./src/app/posts/[slug]/page.tsx:50:18)"}
+{"level":"error","message":"Error fetching posts: Post não encontrado com o slug de construindo-spa-com-saddsadasdas","service":"user-service","stack":"Error: Post não encontrado com o slug de construindo-spa-com-saddsadasdas\n    at getPostBySlug (webpack-internal:///(rsc)/./src/app/posts/[slug]/page.tsx:34:19)\n    at async PagePost (webpack-internal:///(rsc)/./src/app/posts/[slug]/page.tsx:50:18)"}
+{"level":"error","message":"Error fetching posts: Post não encontrado com o slug de construindo-spa-com-saddsadasdas","service":"user-service","stack":"Error: Post não encontrado com o slug de construindo-spa-com-saddsadasdas\n    at getPostBySlug (webpack-internal:///(rsc)/./src/app/posts/[slug]/page.tsx:32:19)\n    at async PagePost (webpack-internal:///(rsc)/./src/app/posts/[slug]/page.tsx:47:18)"}
+{"level":"error","message":"Error fetching posts: Post não encontrado com o slug de construindo-spa-com-saddsadasdas","service":"user-service","stack":"Error: Post não encontrado com o slug de construindo-spa-com-saddsadasdas\n    at getPostBySlug (webpack-internal:///(rsc)/./src/app/posts/[slug]/page.tsx:32:19)\n    at async PagePost (webpack-internal:///(rsc)/./src/app/posts/[slug]/page.tsx:47:18)"}
+{"level":"error","message":"Error fetching posts: Post não encontrado com o slug de construindo-spa-com-saddsadasdas","service":"user-service","stack":"Error: Post não encontrado com o slug de construindo-spa-com-saddsadasdas\n    at getPostBySlug (webpack-internal:///(rsc)/./src/app/posts/[slug]/page.tsx:34:19)\n    at async PagePost (webpack-internal:///(rsc)/./src/app/posts/[slug]/page.tsx:49:18)"}
+{"level":"error","message":"Error fetching posts: Post não encontrado com o slug de construindo-spa-com-saddsadasdas","service":"user-service","stack":"Error: Post não encontrado com o slug de construindo-spa-com-saddsadasdas\n    at getPostBySlug (webpack-internal:///(rsc)/./src/app/posts/[slug]/page.tsx:34:19)\n    at async PagePost (webpack-internal:///(rsc)/./src/app/posts/[slug]/page.tsx:49:18)"}
+{"level":"error","message":"Error fetching posts: Post não encontrado com o slug de construindo-spa-com-saddsadasdas","service":"user-service","stack":"Error: Post não encontrado com o slug de construindo-spa-com-saddsadasdas\n    at getPostBySlug (webpack-internal:///(rsc)/./src/app/posts/[slug]/page.tsx:34:19)\n    at async PagePost (webpack-internal:///(rsc)/./src/app/posts/[slug]/page.tsx:49:18)"}
+{"level":"error","message":"Error fetching posts: Post não encontrado com o slug de construindo-spa-com-saddsadasdas","service":"user-service","stack":"Error: Post não encontrado com o slug de construindo-spa-com-saddsadasdas\n    at getPostBySlug (webpack-internal:///(rsc)/./src/app/posts/[slug]/page.tsx:34:19)\n    at async PagePost (webpack-internal:///(rsc)/./src/app/posts/[slug]/page.tsx:49:18)"}
+{"level":"error","message":"Error fetching posts: Post não encontrado com o slug de construindo-spa-com-saddsadasdas","service":"user-service","stack":"Error: Post não encontrado com o slug de construindo-spa-com-saddsadasdas\n    at getPostBySlug (webpack-internal:///(rsc)/./src/app/posts/[slug]/page.tsx:34:19)\n    at async PagePost (webpack-internal:///(rsc)/./src/app/posts/[slug]/page.tsx:49:18)"}
+{"level":"error","message":"Error fetching posts: Post não encontrado com o slug de construindo-spa-com-saddsadasdas","service":"user-service","stack":"Error: Post não encontrado com o slug de construindo-spa-com-saddsadasdas\n    at getPostBySlug (webpack-internal:///(rsc)/./src/app/posts/[slug]/page.tsx:34:19)\n    at async PagePost (webpack-internal:///(rsc)/./src/app/posts/[slug]/page.tsx:49:18)"}
+{"level":"error","message":"Error fetching posts: Post não encontrado com o slug de construindo-spa-com-saddsadasdas","service":"user-service","stack":"Error: Post não encontrado com o slug de construindo-spa-com-saddsadasdas\n    at getPostBySlug (webpack-internal:///(rsc)/./src/app/posts/[slug]/page.tsx:34:19)\n    at async PagePost (webpack-internal:///(rsc)/./src/app/posts/[slug]/page.tsx:49:18)"}
+{"level":"error","message":"Error fetching posts: Post não encontrado com o slug de construindo-spa-com-saddsadasdas","service":"user-service","stack":"Error: Post não encontrado com o slug de construindo-spa-com-saddsadasdas\n    at getPostBySlug (webpack-internal:///(rsc)/./src/app/posts/[slug]/page.tsx:34:19)\n    at async PagePost (webpack-internal:///(rsc)/./src/app/posts/[slug]/page.tsx:49:18)"}
+{"level":"error","message":"Error fetching posts: Post não encontrado com o slug de construindo-spa-com-saddsadasdas","service":"user-service","stack":"Error: Post não encontrado com o slug de construindo-spa-com-saddsadasdas\n    at getPostBySlug (webpack-internal:///(rsc)/./src/app/posts/[slug]/page.tsx:34:19)\n    at async PagePost (webpack-internal:///(rsc)/./src/app/posts/[slug]/page.tsx:49:18)"}
+{"level":"error","message":"Error fetching posts: Post não encontrado com o slug de construindo-spa-com-saddsadasdas","service":"user-service","stack":"Error: Post não encontrado com o slug de construindo-spa-com-saddsadasdas\n    at getPostBySlug (webpack-internal:///(rsc)/./src/app/posts/[slug]/page.tsx:34:19)\n    at async PagePost (webpack-internal:///(rsc)/./src/app/posts/[slug]/page.tsx:49:18)"}
+{"level":"error","message":"Error fetching posts: Post não encontrado com o slug de construindo-spa-com-saddsadasdas","service":"user-service","stack":"Error: Post não encontrado com o slug de construindo-spa-com-saddsadasdas\n    at getPostBySlug (webpack-internal:///(rsc)/./src/app/posts/[slug]/page.tsx:34:19)\n    at async PagePost (webpack-internal:///(rsc)/./src/app/posts/[slug]/page.tsx:49:18)"}
+{"level":"error","message":"Error fetching posts: Post não encontrado com o slug de construindo-spa-com-saddsadasdas","service":"user-service","stack":"Error: Post não encontrado com o slug de construindo-spa-com-saddsadasdas\n    at getPostBySlug (webpack-internal:///(rsc)/./src/app/posts/[slug]/page.tsx:34:19)\n    at async PagePost (webpack-internal:///(rsc)/./src/app/posts/[slug]/page.tsx:49:18)"}
+{"level":"error","message":"Error fetching posts: Post não encontrado com o slug de construindo-spa-com-saddsadasdas","service":"user-service","stack":"Error: Post não encontrado com o slug de construindo-spa-com-saddsadasdas\n    at getPostBySlug (webpack-internal:///(rsc)/./src/app/posts/[slug]/page.tsx:34:19)\n    at async PagePost (webpack-internal:///(rsc)/./src/app/posts/[slug]/page.tsx:49:18)"}
+{"level":"error","message":"Error fetching posts: Post não encontrado com o slug de construindo-spa-com-saddsadasdas","service":"user-service","stack":"Error: Post não encontrado com o slug de construindo-spa-com-saddsadasdas\n    at getPostBySlug (webpack-internal:///(rsc)/./src/app/posts/[slug]/page.tsx:34:19)\n    at async PagePost (webpack-internal:///(rsc)/./src/app/posts/[slug]/page.tsx:49:18)"}
+{"level":"error","message":"Error fetching posts: Post não encontrado com o slug de construindo-spa-com-saddsadasdas","service":"user-service","stack":"Error: Post não encontrado com o slug de construindo-spa-com-saddsadasdas\n    at getPostBySlug (webpack-internal:///(rsc)/./src/app/posts/[slug]/page.tsx:34:19)\n    at async PagePost (webpack-internal:///(rsc)/./src/app/posts/[slug]/page.tsx:49:18)"}
+{"level":"error","message":"Error fetching posts: Post não encontrado com o slug de construindo-spa-com-saddsadasdas","service":"user-service","stack":"Error: Post não encontrado com o slug de construindo-spa-com-saddsadasdas\n    at getPostBySlug (webpack-internal:///(rsc)/./src/app/posts/[slug]/page.tsx:34:19)\n    at async PagePost (webpack-internal:///(rsc)/./src/app/posts/[slug]/page.tsx:49:18)"}
+{"level":"error","message":"Error fetching posts: Post não encontrado com o slug de construindo-spa-com-saddsadasdas","service":"user-service","stack":"Error: Post não encontrado com o slug de construindo-spa-com-saddsadasdas\n    at getPostBySlug (webpack-internal:///(rsc)/./src/app/posts/[slug]/page.tsx:34:19)\n    at async PagePost (webpack-internal:///(rsc)/./src/app/posts/[slug]/page.tsx:49:18)"}
+{"level":"error","message":"Error fetching posts: Post não encontrado com o slug de construindo-spa-com-saddsadasdas","service":"user-service","stack":"Error: Post não encontrado com o slug de construindo-spa-com-saddsadasdas\n    at getPostBySlug (webpack-internal:///(rsc)/./src/app/posts/[slug]/page.tsx:34:19)\n    at async PagePost (webpack-internal:///(rsc)/./src/app/posts/[slug]/page.tsx:49:18)"}
+{"level":"error","message":"Error fetching posts: Post não encontrado com o slug de construindo-spa-com-saddsadasdas","service":"user-service","stack":"Error: Post não encontrado com o slug de construindo-spa-com-saddsadasdas\n    at getPostBySlug (webpack-internal:///(rsc)/./src/app/posts/[slug]/page.tsx:34:19)\n    at async PagePost (webpack-internal:///(rsc)/./src/app/posts/[slug]/page.tsx:49:18)"}

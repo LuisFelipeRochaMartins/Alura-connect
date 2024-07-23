@@ -1,14 +1,15 @@
-import Image from 'next/image'
-import styles from './Card.module.css'
-import Avatar from '../Avatar'
-import { PostProps } from '@/shared/interfaces'
-import Link from 'next/link'
+import Image from 'next/image';
+import styles from './Card.module.css';
+import Avatar from '../Avatar';
+import Link from 'next/link';
+import { Post, User } from '@prisma/client';
 
-interface CardProps extends PostProps {
-  main?: boolean
+interface CardProps extends Post {
+  main?: boolean,
+  author: User
 }
 
-const Card = ({id, cover, title, slug, body, markdown, author, main} : CardProps ) => {
+const Card = ({ id, cover, title, slug, body, markdown, author, main }: CardProps) => {
   return main ? (
     <main className={styles.main}>
       <article className={styles.card}>
@@ -23,11 +24,11 @@ const Card = ({id, cover, title, slug, body, markdown, author, main} : CardProps
           </figure>
         </header>
         <section className={styles.body}>
-          <h2>{ title }</h2>
-          <p>{ body }</p>
+          <h2>{title}</h2>
+          <p>{body}</p>
         </section>
         <footer>
-          <Avatar {...author}/>
+          <Avatar {...author} />
         </footer>
       </article>
     </main>
@@ -45,15 +46,15 @@ const Card = ({id, cover, title, slug, body, markdown, author, main} : CardProps
           </figure>
         </header>
         <section className={styles.body}>
-          <h2>{ title }</h2>
-          <p>{ body }</p>
+          <h2>{title}</h2>
+          <p>{body}</p>
         </section>
         <footer>
-          <Avatar {...author}/>
+          <Avatar {...author} />
         </footer>
       </article>
     </Link>
-  )
+  );
 }
 
-export default Card
+export default Card;

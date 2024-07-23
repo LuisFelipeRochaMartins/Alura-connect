@@ -1,22 +1,27 @@
 import Card from "@/components/Card";
-import { PostProps } from "@/shared/interfaces";
 import styles from './page.module.css'
 import logger from "@/logger";
 import Link from "next/link";
+import { Post } from "@prisma/client";
+import db from "../../prisma/db";
 
-async function getAllPost(page : number): Promise<PostProps[]> {
+async function getAllPost(page : number): Promise<Post[]> {
   try {
-    const response = await fetch(`http://localhost:3042/posts?_page=${page}&_per_page=6`);
-    if (!response.ok) {
-      logger.error(`HTTP error! Status: ${response.status}`);
-      return [];
-    }
-    const postsResponse = await response.json();
-    const postsData: PostProps[] = postsResponse.data;
-    logger.info("Posts Obtidos com Sucesso!");
-    return postsData;
+    const posts = await db.post.findMany({
+      include: {
+        author: true
+      },
+      take: 6,
+      orderBy: {
+        createdAt: 'desc'
+      },
+      skip: (page -1) * 6
+    })
+    console.log(posts)
+
+    return posts
   } catch (error) {
-    logger.error('Error fetching posts:', error);
+    logger.error('Error fetching posts:', { error });
     return [];
   }
 }
@@ -28,7 +33,7 @@ async function Home({ searchParams }: any) {
     <main>
       <section className={styles.grid}>
         {posts.map(post => 
-          <Card key={post.body} { ...post }/> 
+          <Card key={post.title} { ...post }/> 
         )}
         {currentPage > 1 && 
           <Link className={styles.link} href={`/?page=${Number(currentPage) -1}`} passHref>

@@ -1,0 +1,27 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.link {
+  color: #BFFFC3;
+  font-size: 18px;
+  font-weight: 400;
+  display: flex;
+  gap: 4px;
+}
+
+.text {
+  color: #BFFFC3;
+  font-size: 38px;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.subtext {
+  color: #BCBCBC;
+  font-size: 26px;
+}

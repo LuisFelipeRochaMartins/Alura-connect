@@ -1,24 +1,26 @@
 import Card from "@/components/Card";
 import logger from "@/logger";
-import { PostProps } from "@/shared/interfaces";
 import { remark } from 'remark'
 import html from 'remark-html'
 import styles from './Slug.module.css'
+import db from "../../../../prisma/db";
+import { Post } from "@prisma/client";
+import { redirect } from "next/navigation";
+import NotFound from "@/app/not-found";
 
-async function getPostBySlug(slug: string): Promise<PostProps | null> {
+async function getPostBySlug(slug: string): Promise<Post | null> {
   try {
-    const response = await fetch(`http://localhost:3042/posts?slug=${slug}`);
-    if (!response.ok) {
-      logger.error(`HTTP error! Status: ${response.status}`);
-      return null;
-    }
-    const postResponse = await response.json();
-    if (postResponse.length === 0) {
-      return null
-    }
-    logger.info("Posts Obtidos com Sucesso!");
-
-    const post = postResponse[0]
+    const post = await db.post.findUnique({
+      where: {
+        slug
+      },
+      include: {
+        author: true
+      }
+    })
+    if (!post) {
+      throw new Error(`Post não encontrado com o slug de ${slug}`)
+    } 
     post.markdown = await processMarkdown(post)
 
     return post
@@ -28,7 +30,7 @@ async function getPostBySlug(slug: string): Promise<PostProps | null> {
   }
 }
 
-async function processMarkdown(post: PostProps) {
+async function processMarkdown(post: Post) {
   const processedContent = await remark()
     .use(html)
     .process(post.markdown)
@@ -48,9 +50,7 @@ const PagePost = async ({ params } : any) => {
         </section>
       </main>
     ) : (
-      <main className={styles.main}>
-        <h2>Página Não encontrada!</h2>
-      </main>
+      <NotFound />
     )
   )
 }
